@@ -11,8 +11,7 @@ visualización de datos con R para explorar la evolución del empleo en
 distintos países y sectores económicos.
 
 Primero, cargamos las librerías necesarias y los datos desde la carpeta
-`/bases`, utilizando rutas relativas para garantizar la portabilidad del
-análisis.
+`/bases`, utilizando rutas relativas para garantizar la portabilidad.
 
 ``` r
 # Carga de librerías
