@@ -1,2 +1,3 @@
-.Rhistory\n.RData\n.Rproj.user/
-.Rproj.user
+.Rproj.user/
+*.html
+*.DS_Store
