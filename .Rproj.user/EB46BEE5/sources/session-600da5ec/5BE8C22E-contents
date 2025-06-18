@@ -3,11 +3,7 @@ title: "Análisis de Estructura Productiva - Actividad Integradora M2"
 author: "Valentina Linares (Diplomatura PAEEC - UBA)"
 date: "`r Sys.Date()`"
 output:
-  html_document:
-    toc: true
-    toc_float: true
-    theme: united
-    df_print: kable
+  github_document 
 ---
 
 ```{r setup, include=FALSE}
@@ -142,7 +138,7 @@ if(nrow(datos_procesados_servicios) > 0) {
     theme(legend.position = "top", plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
 
   # Convertir a interactivo y mostrarlo
-  ggplotly(grafico_servicios_comparativo, tooltip = "text")
+  print(grafico_servicios_comparativo)
 
 } else {
   
